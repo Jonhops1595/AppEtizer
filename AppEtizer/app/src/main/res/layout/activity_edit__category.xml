@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.widget.LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        <!--Display and edit space for category name -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/identifier"
+            android:backgroundTint="@color/dark_grey"
+            android:text="Categories"
+            />
+
+        <ListView
+            android:id="@+id/category_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/identifier"
+            >
+
+        </ListView>
+
+
+        <!--Save Button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/ERsaveButton"
+            android:text="@string/save"
+            android:backgroundTint="@color/dark_grey"
+            android:layout_below="@id/category_list"/>
+    </android.widget.LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

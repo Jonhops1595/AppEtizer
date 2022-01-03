@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+<android.widget.RelativeLayout
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        tools:ignore="MissingConstraints">
+<!--Display and edit space for category name -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ECtextView1"
+            tools:ignore="MissingConstraints" />
+
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ECeditText1"
+            android:layout_below="@id/ECtextView1"
+            tools:ignore="MissingConstraints" />
+
+<!--Save Button -->
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ECeditText1"
+            android:id="@+id/ERsaveButton"
+            android:text="@string/save"/>
+</android.widget.RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

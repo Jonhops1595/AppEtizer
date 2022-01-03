@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditRecipe">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe name:"
+                android:textSize="18sp"
+                />
+
+        <EditText
+                android:id="@+id/RecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:backgroundTint="@color/dark_grey"
+                android:text=" " />
+
+        <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:backgroundTintMode="src_atop"
+                android:backgroundTint="@color/dark_grey"
+                android:layout_marginTop="10dp" />
+
+        <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total time:"
+                android:textSize="18sp"/>
+
+        <EditText
+                android:id="@+id/totaltime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:backgroundTint="@color/dark_grey"
+                android:text=" " />
+
+
+
+        <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ingredients: Amount ' , ' ingredient ' , '"
+                android:textSize="18sp"/>
+
+
+        <EditText
+                android:id="@+id/Ingredients"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:backgroundTint="@color/dark_grey"
+                android:inputType="textMultiLine" />
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Directions:"
+                android:textSize="18sp"/>
+
+        <EditText
+                android:id="@+id/Directions"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:backgroundTint="@color/dark_grey"
+                android:inputType="textMultiLine" />
+
+        <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Image"
+                android:textSize="18sp"/>
+
+        <ImageButton
+                android:id="@+id/recipePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:backgroundTint="@color/blue"
+                android:src="@android:drawable/ic_menu_add"
+                tools:src="@android:drawable/ic_menu_gallery" />
+
+        <Button
+                android:id="@+id/SaveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/dark_grey"
+                android:text="Save" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Item">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add an Element"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/AddCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:text="Add Category" />
+
+        <Button
+            android:id="@+id/InputRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:text="Input Recipe" />
+        
+        <TextView
+            android:id="@+id/editCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit a Category"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/EditButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:text="Edit Category" />
+        <TextView
+            android:id="@+id/delCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete a Category"
+            android:textSize="30sp"/>
+        <Button
+            android:id="@+id/DeleteCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_grey"
+            android:text="Delete Category" />
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Recipe" />
+
+        <ImageButton
+            android:id="@+id/ScanRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/blue"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

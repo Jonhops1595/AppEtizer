@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/backOption"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="BackButton"
+        app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/goHomeEdit"
+            android:title="Home"
+            app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/deleteOption"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+</menu>

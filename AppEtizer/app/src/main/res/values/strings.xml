@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppEtizer</string>
+    <string name="save">Save</string>
+    <string name="default_recipe">Default Recipe</string>
+    <string name="addElement">Add Element</string>
+    <string name="search">Search</string>
+
+</resources>
